@@ -29,5 +29,9 @@ features = [
   "postgres",
   "uuid",
   "chrono",
-  "migrate"
+  "migrate",
+  "offline"
 ]
+
+[profile.dev.package.sqlx-macros]
+opt-level = 3
